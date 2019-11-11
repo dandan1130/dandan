@@ -1,0 +1,181 @@
+@media screen and (max-width: 1024px) {
+    main{
+        text-align: center;
+        margin: 30px;
+    }
+
+    /* ヘッダーの詳細部分*/
+    .header{
+        width: 100%;        
+    }
+
+    .header h1{
+        font-size: 60px;
+    }
+
+    .glovalnavigation ul{
+        font-size: 26px;
+    }
+
+    .contents-wrapper {
+        display: inherit;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .content img {
+        width: 50%;
+
+    }
+     /* -----------*/
+
+     /* 人気記事の詳細部分*/
+
+    aside{
+        width:  100%; 
+        margin-left: 0px;
+    }
+
+    .ranking{
+        display: flex;
+        width: 100%;
+    }    
+
+    .ranking h5 {
+        font-size: 20px;      
+        text-align: left;
+    }
+
+    .ranking-photo{
+        overflow: hidden;   
+    }
+
+    .ranking-discription p {
+     display: none;
+    }
+
+    /*    最新記事の詳細*/
+
+    .box-1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .discription {
+        width: 100%;
+        margin: 10px;
+    }
+    .discription h3 {
+        font-size: 18px;
+    }
+
+    .discription p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .box-1 img{    
+        width: 50%
+    }    
+    /* ----------*/
+
+    .footer-list li{
+        list-style: none;
+        text-align: center;
+        color: white;
+        font-size:19px;
+        font-weight: bold;
+    }
+}
+    
+@media screen and (max-width: 480px) {
+ 
+    .header h1{
+        font-size: 40px;
+    }
+
+    .glovalnavigation ul{
+        font-size: 16px;
+    }
+
+    /*    特集記事*/
+
+    .content h2{
+/*        font-size: px;*/
+        padding: 5px;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .content img {
+        width: 80%;    
+    }
+
+    .content p {
+        font-size: 14px;  
+    }
+
+     /* 人気記事の詳細部分*/
+
+    aside{
+        width:  100%;  
+        margin: 0;        
+    }
+    
+    aside h4{
+        font-size: 18px;
+    }
+
+    .ranking{
+        display: flex;
+        width: 100%;
+    }    
+
+    .ranking h5 {
+        font-size: 15px;        
+    }
+
+    .ranking-photo{
+        width: 100%;
+        overflow: hidden;    
+    }
+
+    .ranking-discription h5{
+        width: 100%;
+        font-size: 14px;
+    }    
+    .ranking-discription p {
+        display: none;
+    }
+
+    .ranking-photo {
+        width: 50%;
+    }
+
+    /*   最新記事の詳細*/
+
+    article h2{
+        font-size: 18px;
+    }
+    .box-1{    
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .discription{
+        width: 100%;        
+    }    
+    .discription h3{
+        font-size: 18px;
+    }
+    .discription p{
+        width: 100%;
+    }
+    .box-1 img{
+        width: 80%;
+    }    
+}
