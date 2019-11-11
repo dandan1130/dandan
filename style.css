@@ -3,17 +3,17 @@
         padding: 0px;
     }
 
-     body{ 
+     body{
         background-color: #000000;
         color: #000000;
         font-family: "Yu Gothic";
-    } 
+    }
 
-    /* ヘッダーロゴの部分*/ 
+    /* ヘッダーロゴの部分*/
 
     .header {
         width: 100%;
-        text-align: center;  
+        text-align: center;
         background-color: #000000;
     }
     .header h1{
@@ -25,7 +25,7 @@
         color: red;
     }
 
-    /* メニューの部分*/ 
+    /* メニューの部分*/
 
     .glovalnavigation {
         display:flex;
@@ -36,11 +36,11 @@
 
     .glovalnavigation  ul {
         display: flex;
-        list-style: none; 
+        list-style: none;
         font-size: 20px;
     }
 
-    .glovalnavigation  ul :hover { 
+    .glovalnavigation  ul :hover {
         cursor: pointer;
         opacity: 0.4;
     }
@@ -56,7 +56,7 @@
     /* -------------------------*/
 
 
-    /* 特集記事・人気記事の配置に関するコード*/ 
+    /* 特集記事・人気記事の配置に関するコード*/
 
     .contents-wrapper{
         display: flex;
@@ -80,6 +80,7 @@
     }
 
     .content img {
+        width: 80%;
         text-align: center
 
     }
@@ -94,7 +95,7 @@
 
        /* 人気ランキング記事の詳細部分*/
 
-    aside {  
+    aside {
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
@@ -114,7 +115,7 @@
     .ranking {
         width: 100%;
         display: inline-flex;
-        color: #ffffff;   
+        color: #ffffff;
         word-wrap: break-word;
         font-size: 18px;
     }
@@ -126,7 +127,7 @@
     }
 
     .ranking-discription{
-        width: 98%;    
+        width: 98%;
     }
 
     .ranking-discription h5 {
@@ -136,7 +137,7 @@
         display: none;
     }
 
-    /* 最新記事の部分*/ 
+    /* 最新記事の部分*/
 
     article {
         text-align: center;
@@ -153,7 +154,7 @@
         font-size: 24px;
     }
 
-    .box-1{    
+    .box-1{
         display: flex;
         justify-content: center;
         text-align: center;
@@ -169,7 +170,7 @@
     }
 
     .discription h3{
-        display: inline-flex;    
+        display: inline-flex;
         color: #ffffff;
     }
 
@@ -186,7 +187,7 @@
 
     /* -------------------------*/
 
-    /* ヘッダー詳細部分*/ 
+    /* ヘッダー詳細部分*/
 
     .footer-wrapper {
         width: 100%;
