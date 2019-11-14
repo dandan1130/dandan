@@ -2,12 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
+
  body{
     background-color: #000000;
     color: #000000;
     font-family: "Yu Gothic";
 }
+
 /* ヘッダーロゴの部分*/
+
 .header {
     width: 100%;
     text-align: center;
@@ -21,46 +24,60 @@
 .header span {
     color: red;
 }
+
 /* メニューの部分*/
+
 .glovalnavigation {
     display:flex;
     justify-content: center;
     color: white;
 }
+
 .glovalnavigation  ul {
     display: flex;
     list-style: none;
     font-size: 20px;
 }
+
 .glovalnavigation  ul :hover {
     cursor: pointer;
     opacity: 0.4;
 }
+
 .glovalnavigation li{
     padding: 10px;
 }
+
 /* -------------------------*/
+
+
 /* 特集記事・人気記事の配置に関するコード*/
+
 section {
     display: flex;
     justify-content: center;
 }
+
 /* 特集の詳細部分*/
+
 .content{
     text-align: center;
     width: 50%;
     height: 50%;
     margin-right:20px;
-    border: solid 3px #ffffff;
+    border: solid 3px #999;
 }
+
 .content h2{
     font-size: 28px;
     padding: 5px;
     color: #fff;
 }
+
 .content img {
     width: 80%;
     text-align: center;
+
 }
 .content p {
     color: #ffffff;
@@ -69,20 +86,25 @@ section {
     font-size: 20px
 }
    /* -------------------------*/
+
+
    /* 人気ランキング記事の詳細部分*/
+
 aside {
     display: inline-flex;
     flex-direction: column;
     width: 25%;
-    border: solid 3px #ffffff;
+    border: solid 3px #999;
     border-radius: 20px;
 }
+
 aside h4 {
     text-align: center;
     color: white;
     margin: 10px;
     font-size: 24px;
 }
+
 .ranking {
     width: 98%;
     display: inline-flex;
@@ -90,26 +112,32 @@ aside h4 {
     word-wrap: break-word;
     font-size: 18px;
 }
+
 .ranking img{
     width: 90%;
     overflow: hidden;
     padding:5px
 }
+
 .ranking-discription{
     width: 98%;
 }
+
 .ranking-discription h5 {
     font-size: 14px;
 }
 .ranking-discription p {
     display: none;
 }
+
 /* 最新記事の部分*/
+
 article {
     text-align: center;
     width: 100%;
     margin: 0;
 }
+
 article h2 {
     display: inline-block;
     text-align: center;
@@ -118,46 +146,57 @@ article h2 {
     margin-top: 40px;
     font-size: 24px;
 }
+
 .box-1{
     display: flex;
     justify-content: center;
     text-align: center;
     width: 100%;
-    margin-top: 20px  ;
+    margin-top: 20px;
 }
+
 .discription {
     width: 40%;
     word-wrap: break-word;
     font-size: 23px;
     margin: 20px;
 }
+
 .discription h3{
     display: inline-flex;
     color: #ffffff;
+    border-bottom: 2px solid #fff
 }
+
 .box-1 p {
     width: 100%;
     font-size: 18px;
-    color: #ffffff;
+    color: #999;
     text-align: left;
 }
+
 .box-1 img {
     overflow: hidden;
 }
+
 /* -------------------------*/
 
 /* ヘッダー詳細部分*/
+
 .footer-wrapper {
     width: 100%;
 }
+
 .footer-logo{
     text-align: center;
     color: white;
     font-size: 16px;
 }
+
 .footer-logo span {
     color: red;
 }
+
 .footer-list li{
     list-style: none;
     text-align: center;
@@ -165,8 +204,10 @@ article h2 {
     font-size: 19px;
     font-weight: bold;
 }
+
 .footer-list li:hover{
     cursor: pointer;
     opacity: 0.4;
 }
+
 /* -------------------------*/
