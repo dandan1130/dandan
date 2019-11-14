@@ -6,7 +6,7 @@
 
     /* ヘッダーの詳細部分*/
     .header{
-        width: 100%;
+        width: 98%;
     }
 
     .header h1{
@@ -17,7 +17,7 @@
         font-size: 20px;
     }
 
-    .contents-wrapper {
+    section {
         display: inherit;
     }
 
@@ -27,6 +27,7 @@
 
     .content img {
         width: 50%;
+
     }
      /* -----------*/
 
@@ -34,7 +35,7 @@
 
     aside{
         width:  99%;
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .ranking{
@@ -92,7 +93,7 @@
 
 @media screen and (max-width: 480px) {
 
-    .header h1{
+    .header h1 {
         font-size: 30px;
     }
 
@@ -102,6 +103,9 @@
 
     /*    特集記事*/
 
+    .content{
+        width: 98%;
+    }
     .content h2{
 /*        font-size: px;*/
         padding: 5px;
