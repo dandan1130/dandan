@@ -120,7 +120,7 @@
      /* 人気記事の詳細部分*/
 
     aside{
-        width:  100%;
+        width:  98%;
         margin: 0;
     }
 
@@ -130,7 +130,7 @@
 
     .ranking{
         display: flex;
-        width: 100%;
+        width: 98%;
     }
 
     .ranking h5 {
@@ -162,14 +162,14 @@
     .box-1{
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        width: 97%;
     }
 
     .discription{
-        width: 100%;
+        width: 97%;
     }
     .discription h3{
-        font-size: 18px;
+        font-size: 17px;
     }
     .discription p{
         width: 100%;

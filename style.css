@@ -66,11 +66,11 @@
     /* 特集の詳細部分*/
 
     .content{
-        text-align: center;
-        width: 50%;
-        height: 50%;
-        margin: 0 0 20px 0;
-        border: solid 3px #ffffff;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto 20px;
+    border: solid 3px #ffffff;
     }
 
     .content h2{
@@ -159,7 +159,7 @@
         justify-content: center;
         text-align: center;
         width: 100%;
-        margin-top: 40px;
+        margin-top: 40px auto;
     }
 
     .discription {
