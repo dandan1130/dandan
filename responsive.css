@@ -10,11 +10,11 @@
     }
 
     .header h1{
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .glovalnavigation ul{
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .contents-wrapper {
@@ -22,19 +22,18 @@
     }
 
     .content{
-        width: 100%;
+        width: 99%;
     }
 
     .content img {
         width: 50%;
-
     }
      /* -----------*/
 
      /* 人気記事の詳細部分*/
 
     aside{
-        width:  100%;
+        width:  98%;
         margin-left: 0px;
     }
 
@@ -65,7 +64,7 @@
     }
 
     .discription {
-        width: 100%;
+        width: 97%;
         margin: 10px;
     }
     .discription h3 {

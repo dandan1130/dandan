@@ -63,7 +63,7 @@
         justify-content: center;
     }
 
-    /* 特集の詳細部分*/ 
+    /* 特集の詳細部分*/
 
     .content{
         text-align: center;
@@ -81,7 +81,7 @@
 
     .content img {
         width: 80%;
-        text-align: center
+        text-align: center;
 
     }
     .content p {
