@@ -33,13 +33,13 @@
      /* 人気記事の詳細部分*/
 
     aside{
-        width:  98%;
+        width:  99%;
         margin-left: 0px;
     }
 
     .ranking{
         display: flex;
-        width: 100%;
+        width: 98%;
     }
 
     .ranking h5 {
@@ -60,11 +60,11 @@
     .box-1{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 98%;
     }
 
     .discription {
-        width: 97%;
+        width: 98%;
         margin: 10px;
     }
     .discription h3 {
