@@ -168,8 +168,6 @@
         font-size: 18px;
     }
     .box{
-        display: flex;
-        flex-wrap: wrap;
         width: 96%;
     }
 
