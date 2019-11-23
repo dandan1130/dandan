@@ -61,7 +61,7 @@
         text-align: center;
         width: 100%;
     }
-    .box-1{
+    .box{
         display: flex;
         flex-direction: column;
         margin: 10px auto;
@@ -81,8 +81,8 @@
         width: 100%;
     }
 
-    .box-1 img{
-        width: 50%
+    .box img{
+        width: 50%;
     }
     /* ----------*/
 
@@ -167,7 +167,7 @@
     article h2{
         font-size: 18px;
     }
-    .box-1{
+    .box{
         display: flex;
         flex-wrap: wrap;
         width: 96%;
@@ -181,8 +181,10 @@
     }
     .discription p{
         width: 100%;
+        font-size: 13px;
+        margin: 10px 0 ;
     }
-    .box-1 img{
+    .box img{
         width: 80%;
     }
 }
